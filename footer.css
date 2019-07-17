@@ -1,0 +1,81 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "IRANSansWeb";
+}
+.footer-about-section {
+  background-color: #26a0c1;
+  width: 100%;
+}
+.footer-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a0c1;
+  padding: 3rem 0;
+  margin-bottom: 25px;
+}
+.footer-logo-link {
+  display: inline-block;
+}
+.footer-logo-image {
+  width: 128px;
+}
+.footer-social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 350px;
+}
+.social-icon {
+  padding: 1rem 1.5rem
+}
+.social-icon-image {
+  width: 32px;
+}
+.footer-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: justify;
+  width: 75%;
+}
+.footer-menu {
+  background: #f9f9f9;
+  width: 100%;
+}
+.menu-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+.menu-item {
+  padding: 1rem 1rem;
+}
+.menu-item:first-child {
+  padding-right: 0;
+}
+.menu-item-link {
+  color: #828282;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all ease-in-out .15s;
+}
+.menu-item-link:hover {
+  color: #1f4b90;
+}
+@media (max-width: 645px) {
+  .footer-about {
+    flex-direction: column;
+  }
+  .footer-desc {
+    width: 100%;
+  }
+}
